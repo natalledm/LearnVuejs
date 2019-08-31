@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Signika&display=swap');
+
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    background-image: url('../assets/img/bg.jpg');
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px 30px;
+    width: 800px; /* Must have width to have center! */
+    margin: 30px auto; /* centers */
+}
+
+.title {
+    font-family: 'Luckiest Guy', cursive;
+}

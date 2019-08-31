@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Signika&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet"> 
+    <link href="./styles/style.css" rel="stylesheet" type="text/css"> 
     <title>Dreamy Pet Survey</title>
 </head>
 <body>
@@ -20,11 +20,39 @@
         <form>
             <fieldset class="fieldset">
                 <legend>Personal information:</legend>
-                <input type="">
+                <label for="name" class="label">Name*:</label>
+                <input type="text" class="field" name="name" id="name" placeholder="Your name" required>
+                <label for="name" class="label">Email*:</label>
+                <input type="email" class="field" name="email" id="name" placeholder="Your email" required>
+                <label for="name" class="label">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Your age">
             </fieldset>
 
             <fieldset>
                 <legend>Survey questions:</legend>
+                <p class="question">1. What is your dream pet?</p>
+                <select name="animal" id="animal">
+                    <option value="A furry snake">A furry snake</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Unicorn">Unicorn</option>
+                </select>
+
+                <p class="question">2. What color is she/he?</p>
+                <input type="radio" name="color" id="color" value="pink"><label>pink</label>
+                <input type="radio" name="color" id="color" value="purple"><label>purple</label>
+                <input type="radio" name="color" id="color" value="colorful"><label>purple</label>
+                <input type="radio" name="color" id="color" value="change every day"><label>change every day</label>
+
+                <p class="question">3. What name(s) would be perfect for your pet?</p>
+                <input type="checkbox" name="petName" value="Burrito"><label>Burrito</label>
+                <input type="checkbox" name="petName" value="Hairy Paw-ter"><label>Hairy Paw-ter</label>
+                <input type="checkbox" name="petName" value="Buffy"><label>Buffy</label>
+                <input type="checkbox" name="petName" value="Pee Wee"><label>Pee Wee</label>
+                <input type="checkbox" name="petName" value="McDoggins"><label>McDoggins</label>
+
+                <p class="question">4. Why is he/she your dream pet?</p>
+                <textarea></textarea>
+
             </fieldset>
             <input type="submit" value="submit">
         </form>
