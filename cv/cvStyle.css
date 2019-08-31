@@ -1,0 +1,66 @@
+body {
+    font-family: Signika;
+}
+
+.title {
+    color:  rgb(33, 133, 128);
+}
+
+ul {
+    padding-inline-start: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.line {
+    color: 2px solid rgb(33, 133, 128);
+}
+
+.sidebar {
+    /* height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 320px; /* Set the width of the sidebar */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.icon {
+    color: rgb(33, 133, 128);
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    padding-left: 50px; 
+}
+
+.skill {
+    border: 2px solid rgb(33, 133, 128);  
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 133, 128);
+    padding: 2px;
+}
+
+.checked {
+    color:  rgb(33, 133, 128);
+}
+
+.header {
+    margin-left: 350px; /* Same as the width of the sidebar */
+    padding: 10px;
+    background-color: rgb(33, 133, 128);
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    margin-left: 350px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
