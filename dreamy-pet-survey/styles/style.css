@@ -21,6 +21,35 @@ body {
 
 .title {
     font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.fieldset {
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 30px 20px 20px;
+    margin-bottom: 30px;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.fieldset .label:last-of-type,
+.fieldset .label:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+
+.fieldset:first-of-type .label:last-of-type {
+    margin-bottom: 0;
 }
 
 .field {
@@ -35,3 +64,46 @@ body {
 .field[required].invalid {
     border-color: red;
     }
+
+.question {
+    margin-bottom: 14px;
+}
+
+.fieldset .question:first-of-type {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio-button,
+.checkbox {
+    display: inline-block;
+    margin: 0 4px 0 30px;
+}
+
+.comments {
+    width: 100%;
+    color: #333;
+    line-height: 20px;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit {
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    line-height: 36px;
+    text-transform: capitalize;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    display: block
+}
+
