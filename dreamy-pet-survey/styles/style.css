@@ -22,3 +22,16 @@ body {
 .title {
     font-family: 'Luckiest Guy', cursive;
 }
+
+.field {
+    width: 200px;
+    height: 25px;
+}
+
+.field.invalid {
+    border-color: red;
+}
+
+.field[required].invalid {
+    border-color: red;
+    }
