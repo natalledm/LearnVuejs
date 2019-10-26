@@ -21,24 +21,37 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+body {
+  background: #f6c5d4 url("assets/background.jpg") 0 0 repeat;
 }
 
-#nav {
-  padding: 30px;
+#app {
+  width: 90%;
+  margin: 10px auto;
+  background: #ffff;
+  box-shadow: #666666 0px 0px 7px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 0 10px;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+@media (min-width: 768px) and (max-width: 1023px) {
+  //tablet
+  #app {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0 15px;
   }
 }
+
+@media (min-width: 1024px) {
+  //desktop and tv
+  #app {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+}
+
 </style>
