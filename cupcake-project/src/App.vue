@@ -5,17 +5,19 @@
       <router-link to="/about">About</router-link>
     </div> -->
     <TheHeader />
-    <router-view />
+    <TheFooter />
   </div>
 </template>
 
 <script>
 
 import TheHeader from './components/TheHeader'
+import TheFooter from './components/Footer'
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    TheFooter
   }
 }
 </script>

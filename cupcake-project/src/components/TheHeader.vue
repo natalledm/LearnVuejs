@@ -8,7 +8,7 @@
                     <li><router-link to="/"><img src="../assets/Icons/file.png" class="fas fa-bars fa-fw" alt="bars"></router-link></li>
                     <li><router-link to="/"><img src="../assets/Icons/question-mark.png" class="fas fa-question fa-fw" alt="faq"></router-link></li>
                     <li><router-link to="/"><img src="../assets/Icons/person.png" class="fas fa-user-alt fa-fw" alt="login" data-toggle="modal" data-target="#exampleModal"></router-link></li>
-                    </ul>
+                </ul>
             </nav>
     </header>
 </template>
