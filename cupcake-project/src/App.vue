@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
     <TheHeader />
+    <Home />
     <TheFooter />
   </div>
 </template>
@@ -12,11 +9,13 @@
 <script>
 
 import TheHeader from './components/TheHeader'
+import Home from './views/Home'
 import TheFooter from './components/Footer'
 
 export default {
   components: {
     TheHeader,
+    Home,
     TheFooter
   }
 }
