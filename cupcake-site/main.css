@@ -1,7 +1,8 @@
 body {
     font-family: Signika;
-    background-color: #fff1f5;
+    background: #f6c5d4 url("assets/background.jpg") 0 0 repeat;
 }
+
 
 .titles {
     color: rgb(238, 36, 97);
